@@ -654,11 +654,11 @@ li {
   background: #111;
 }
 .contact__wrapper {
-  max-width: 950px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
+  padding-left: 52px;
 }
 .contact__data {
   width: 100%;
@@ -675,8 +675,7 @@ li {
   text-align: center;
   font-size: 40px;
 }
-.contact__info {
-}
+
 .contact__name {
   font-size: 24px;
 }
@@ -732,12 +731,11 @@ li {
   border: 1px solid #333;
   resize: none;
   border-radius: 15px;
-  background-color: whitesmoke;
+  background-color: #ccc;
   border: none;
   color: black;
 }
 .contact__textarea:hover {
-  transform: scale(1.1);
 }
 .contact__textarea::before {
   content: "";
@@ -855,7 +853,7 @@ li {
   .services__card {
     width: 100%;
   }
-  .contact__info,
+  
   .contact__form {
     width: 100%;
   }
@@ -880,10 +878,7 @@ html {
 body {
   overflow-x: hidden;
 }
-.container {
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
 header {
   position: fixed;
   top: 16px;
@@ -1096,7 +1091,7 @@ header {
 .why__wrapper,
 .services__wrapper,
 .top__wrapper,
-.contact__wrapper {
+.contact__wrapper{
   position: relative;
   z-index: 2;
 }
@@ -1290,7 +1285,7 @@ header {
   background: rgba(10, 10, 10, 0.5);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
 }
-.contact__info,
+
 .contact__form {
   padding: 30px;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1454,7 +1449,7 @@ header {
     margin-right: 0;
     padding: 18px 20px;
   }
-  .contact__info,
+  
   .contact__form {
     padding: 22px;
   }
